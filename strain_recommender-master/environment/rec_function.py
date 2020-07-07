@@ -106,4 +106,4 @@ def recommend(request: dict, n: int=10):
         {"id": str(val)}
         for val in list_strains[:n]
     ]
-    return jsonify(results)
+    return jsonify(result)
